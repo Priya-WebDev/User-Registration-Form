@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#title {
+  text-align: center;
+  background-color: blueviolet;
+  padding: 0.5rem;
+  font-size: x-large;
+  margin: 0 3rem 1rem 3rem;
+}
+
+label {
+  display: block;
+  margin: 1rem 0 0.5rem 3rem;
+  font-size: large;
+}
+
+input {
+  //display: block;
+  width: 100%;
+  min-height: 2rem;
+  padding: 0 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+#submitbutton {
+  display: block;
+  background-color: blueviolet;
+  font-size: x-large;
+  padding: 0.4rem;
+  width: 100%;
+  margin: 0.1rem 3rem 0.5rem 3rem;
+}
+
+input:focus {
+  outline: 0.12rem solid blueviolet;
+}
+
+#inputCont {
+  display: flex;
+  width: 100%;
+}
+
+.errorTag {
+  width: fit-content;
+  padding: 0 0.125rem 0 0.125rem;
+  margin: 0 3rem;
+}

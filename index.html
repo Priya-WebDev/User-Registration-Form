@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body style="display: flex;flex-direction: column ;" >
+    <div id='title'>REGISTRATION</div>
+   <form action="#" method="post" id="formCont">    
+        <label for="username">USERNAME</label>   
+        <div id="inputCont"> 
+        <input id="username" type="text" minlength="1" placeholder="Enter Name" name="username" autocomplete="off" required />   
+        </div>         
+        <div id="nameError" class="errorTag" ></div>      
+        
+        <label for="phonenumber">PHONE NUMBER</label>  
+        <div id="inputCont"> 
+        <input id="phonenumber" type="number"    placeholder="Enter Phone Number" name="phonenumber" required/> 
+        </div>   
+        <div id="numberError" class="errorTag"></div>   
+      
+        <label for="email">EMAIL</label> 
+        <div id="inputCont">       
+        <input  type="email" id="email"  placeholder="Enter Email" name="email" required/>   
+        </div>
+        <div id="emailError" class="errorTag"></div> 
+      
+        <label for="pwd" >PASSWORD</label>  
+        <div id="inputCont">      
+        <input type="password" id="pwd"  minlength="4" autocomplete="off" placeholder="Enter Password" name="password" required/>
+        </div> 
+        <div id="pwdError" class="errorTag" ></div>     
+       
+        <label for="pwd">CONFIRM PASSWORD</label>
+        <div id="inputCont"> 
+        <input  type="password"  id="confirmpwd" minlength="4" autocomplete="off" placeholder="Confirm Password" name="confirmpwd" required/>   
+        </div>
+        <div id="confirmpwdError" class="errorTag"></div>        
+
+        <div style="display:flex;flex-direction: row;width: 100%;">
+        <button type="submit" id="submitbutton">SUBMIT</button>
+        </div>
+    </form> 
+   <script src="script.js">  </script>
+</body>
+  
+</html>
