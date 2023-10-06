@@ -6,9 +6,11 @@ This project consists of a web page designed for user registration. It allows us
 # Title:
 The web page has a title "REGISTRATION" displayed at the top, providing a clear indication of the purpose of the page.
 
-# Form: The main content of the page is a form, enclosed within <form> tags. The form is used for collecting user data.
+# Form: 
+The main content of the page is a form, enclosed within <form> tags. The form is used for collecting user data.
 
-# Form Fields: There are several form fields for collecting user information:
+# Form Fields: 
+There are several form fields for collecting user information:
 
 + Username: Users can input their name in the "USERNAME" field.
 + Phone Number: Users can input their phone number in the "PHONE NUMBER" field. It is designed to accept numeric input only.
